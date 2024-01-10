@@ -437,17 +437,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
 
     elif query.data == "start":
-        buttons = [[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+        buttons = [[          
+            InlineKeyboardButton('💥 JOIN GROUP 💥', url='https://t.me/+r-li9F2Mp105MmQ9'),
+            InlineKeyboardButton('✍️ REPORT ISSUE ✍️', url='https://t.me/CrazyboyHere')
+            ],[           
+            InlineKeyboardButton('💌 ADMIN SUPPORT 💌', 'https://t.me/CrazyboyHere')
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/CrazyboyOfficial'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/CrazyboyOfficial')
-            ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
-            ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
-            ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('🚀 LATEST REVIEW 🚀', 'https://youtube.com/@CrazyCineView')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
