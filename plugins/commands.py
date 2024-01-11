@@ -51,11 +51,7 @@ async def start(client, message):
 
             InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
 
-            ],[
-
-            InlineKeyboardButton('🔥 BENGALI REVIEW 🔥', https://t.me/CrazyCineView')
-
-        ]]
+            ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
