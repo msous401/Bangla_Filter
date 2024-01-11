@@ -47,10 +47,6 @@ async def start(client, message):
 
             InlineKeyboardButton('🔎 JOIN GROUP 🔍', url='https://t.me/joinchat/r-li9F2Mp105MmQ9')
 
-            ],[
-
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
-
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
