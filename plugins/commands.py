@@ -43,7 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[           
 
-            InlineKeyboardButton('REPORT ISSUE', url='https://t.me/CrzyboyHere'),
+            InlineKeyboardButton('REPORT ISSUE', url='https://t.me/CrazyboyHere'),
 
             InlineKeyboardButton('🔎 JOIN GROUP 🔍', url='https://t.me/joinchat/r-li9F2Mp105MmQ9')
 
