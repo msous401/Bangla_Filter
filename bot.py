@@ -18,7 +18,7 @@ from pyrogram import types
 from aiohttp import web
 from plugins import web_server
 
-PORT = "8086"
+PORT = "8094"
 
 class Bot(Client):
 
